@@ -1,0 +1,16 @@
+MusicPlayer App
+
+1. Make the Layout as LinearLayout.
+2. Add a VideoView layout.
+3. import that layout in MainActivity.
+4. Create a new folder in res folder and name it as 'raw' and paste the video iside it.
+5. Create a String path of that video file as shown.
+6. put that path in URI.
+7. SetVideoURI() in the video view.
+8. start the video by implementing videoview.start()
+
+Attaching a seek bar for that video player.
+-> VideoView gives us a inbuilt function called MediaController.
+* Create a new MediaContoller.
+* set the media controller to the videoview.
+* And also create a anchor to media controlle so that we can peek play and pause the video.
